@@ -1,0 +1,144 @@
+div.editor_wobeto_div div.linha_botoes select{
+  height: 21px;
+  border: 1px solid dimgray;
+  margin-right: 2px;
+}
+
+div.editor_wobeto_div{
+  border: 2px solid #E9EAEF;
+}
+
+div.editor_wobeto_div div.linha_botoes div.ewd{
+  padding:2px;
+  border: 1px solid transparent; 
+  float: left;
+  background-color: transparent;
+  text-align: center;
+}
+
+div.editor_wobeto_div div.linha_botoes div.ewd:hover{
+  border: 1px solid #BFCAFF;
+  background-color: #EFF2FF;
+}
+
+div.editor_wobeto_div div.linha_botoes div.ewd_interna{
+  width:16px;
+  height:16px;
+  background-image: url(../images/icones_editor_texto.png);
+  background-repeat: repeat-x;
+  background-color: transparent;
+}
+
+div.editor_wobeto_div div.linha_botoes div.ewd_separator{
+  padding:2px;
+  border: 1px solid transparent; 
+  float: left;
+  background-color: transparent;
+  text-align: center;  
+}
+
+div.editor_wobeto_div div.linha_botoes div.separator{
+  width:4px;
+  height:16px;
+  border: 0;
+  background-image: url(../images/icones_editor_texto.png);
+  background-position: -481px 0;
+  background-repeat:no-repeat;
+  background-color: transparent;
+}
+
+div.editor_wobeto_div div.linha_botoes div.selects{
+  float: left;
+}
+
+div.editor_wobeto_div div.linha_botoes{
+  padding-top: 2px;
+  height: 24px;
+  border-bottom: 1px solid #7F7647;
+}
+
+div.editor_wobeto_div div.linha_botoes div.paleta_cores,div.editor_wobeto_div div.linha_botoes div.paleta_fundos{
+  padding: 2px;
+  width: 270px;
+  display:none;
+  position:fixed;
+  border:1px solid grey;
+  background-color: lightgray;  
+}
+
+div.editor_wobeto_div div.linha_botoes div.bold{ background-position: 0 0;}
+div.editor_wobeto_div div.linha_botoes div.italic{background-position: -16px 0;}
+div.editor_wobeto_div div.linha_botoes div.underline{background-position: -32px 0;}
+div.editor_wobeto_div div.linha_botoes div.strike{background-position: -48px 0;}
+div.editor_wobeto_div div.linha_botoes div.sup{background-position: -272px 0;}
+div.editor_wobeto_div div.linha_botoes div.sub{background-position: -257px 0;}
+div.editor_wobeto_div div.linha_botoes div.justify{background-position: -96px 0;}
+div.editor_wobeto_div div.linha_botoes div.left{background-position: -64px 0;}
+div.editor_wobeto_div div.linha_botoes div.center{background-position: -80px 0;}
+div.editor_wobeto_div div.linha_botoes div.right{background-position: -112px 0;}
+div.editor_wobeto_div div.linha_botoes div.ol{background-position: -128px 0;}
+div.editor_wobeto_div div.linha_botoes div.ul{background-position: -144px 0;}
+div.editor_wobeto_div div.linha_botoes div.indent{background-position: -160px 0;}
+div.editor_wobeto_div div.linha_botoes div.outdent{background-position: -176px 0;}
+div.editor_wobeto_div div.linha_botoes div.link{background-position: -224px 0;}
+div.editor_wobeto_div div.linha_botoes div.unlink{background-position: -240px 0;}
+div.editor_wobeto_div div.linha_botoes div.image{background-position: -208px 0;}
+div.editor_wobeto_div div.linha_botoes div.code{background-position: -368px 0;}
+div.editor_wobeto_div div.linha_botoes div.removeformat{background-position: -336px 0;}
+div.editor_wobeto_div div.linha_botoes div.striptags{background-position: -352px 0;}
+div.editor_wobeto_div div.linha_botoes div.hr{background-position: -192px 0;}
+div.editor_wobeto_div div.linha_botoes div.paragraph{background-position: -288px 0;}
+div.editor_wobeto_div div.linha_botoes div.quote{background-position: -416px 0;}
+div.editor_wobeto_div div.linha_botoes div.undo{background-position: -304px 0;}
+div.editor_wobeto_div div.linha_botoes div.redo{background-position: -319px 0;}
+
+div.editor_wobeto_div div.linha_botoes div.cut{background-position: -448px 0;}
+div.editor_wobeto_div div.linha_botoes div.copy{background-position: -432px 0;}
+div.editor_wobeto_div div.linha_botoes div.paste{background-position: -464px 0;}
+div.editor_wobeto_div div.linha_botoes div.fontcolor{background-position: -494px 0;}
+div.editor_wobeto_div div.linha_botoes div.highlight{background-position: -512px 0;}
+div.editor_wobeto_div div.linha_botoes div.emoticons{background-position: -530px 0;}
+
+
+div.editor_wobeto_div div.linha_botoes div.paleta_emoticons{
+  width: 86px;
+  display:none;
+  position:fixed;
+  border:1px solid grey;
+  background-color: lightgray;
+  
+}
+
+div.editor_wobeto_div div.linha_botoes div.paleta_emoticons div{
+  width:19px;
+  height:18px;
+  margin: 1px;
+  background-image: url(../images/emoticons.png);
+  background-repeat: repeat-x;
+  background-color: transparent;
+  float: left;
+  opacity: 0.5;
+}
+
+div.editor_wobeto_div div.linha_botoes div.paleta_emoticons div:hover{
+  opacity: 1;
+}
+
+div.editor_wobeto_div div.linha_botoes div.biggrin{background-position: 0 0;}
+div.editor_wobeto_div div.linha_botoes div.unsure{background-position: -20px 0;}
+div.editor_wobeto_div div.linha_botoes div.wink{background-position: -40px 0;}
+div.editor_wobeto_div div.linha_botoes div.wacko{background-position: -60px 0;}
+div.editor_wobeto_div div.linha_botoes div.tongue{background-position: -80px 0;}
+div.editor_wobeto_div div.linha_botoes div.smile{background-position: -100px 0;}
+div.editor_wobeto_div div.linha_botoes div.sad{background-position: -120px 0;}
+div.editor_wobeto_div div.linha_botoes div.rolleyes{background-position: -140px 0;}
+div.editor_wobeto_div div.linha_botoes div.mellow{background-position: -160px 0;}
+div.editor_wobeto_div div.linha_botoes div.ohmy{background-position: -180px 0;}
+div.editor_wobeto_div div.linha_botoes div.laugh{background-position: -200px 0;}
+div.editor_wobeto_div div.linha_botoes div.huh{background-position: -220px 0;}
+div.editor_wobeto_div div.linha_botoes div.blink{background-position: -240px 0;}
+div.editor_wobeto_div div.linha_botoes div.blush{background-position: -260px 0;}
+div.editor_wobeto_div div.linha_botoes div.cool{background-position: -280px 0;}
+div.editor_wobeto_div div.linha_botoes div.dry{background-position: -300px 0;}
+div.editor_wobeto_div div.linha_botoes div.happy{background-position: -320px 0;}
+div.editor_wobeto_div div.linha_botoes div.excl{background-position: -340px 0;}
